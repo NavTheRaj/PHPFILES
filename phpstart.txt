@@ -1,0 +1,22 @@
+*Check the php version 
+-----------------------
+$ php --version
+
+*create a folder osd in a home directory and create file hello.php inside OSD directory
+---------------------------------------------------------------------------------------
+$cd /home/username
+$ mkdir OSD
+$ cd OSD
+$touch hello.php
+
+*open hello.php and write a prograam to point your name
+-------------------------------------------------------
+<?
+
+echo "Hello world";
+?>
+
+*similarly write a php program that convert celsius to fahreinheit
+*----------------------------------------------------------------------------
+F=9c/5+32;
+

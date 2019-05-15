@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tables and forms</title>
+</head>
+<body>
+	 
+<form>
+	<fieldset>
+		<legend>Contact Form</legend>
+		
+			<label>Name</label>
+			<input type="text" name="name"><br><br>
+		
+		<label>Email</label>
+		<input type="text" name="email"><br><br>
+		<label>Address</label>
+		<input type="text" name="address"><br><br>
+		<label>Message</label>
+		<textarea rows="" column="" name="msg"></textarea><br><br>
+		<button>Submit</button>
+		&nbsp;&nbsp;<button>Reset</button>
+	</fieldset>
+</form>
+ 
+
+<h3>Form by table</h3>
+<fieldset>
+ <table align="center" class="table">
+<form>
+	
+		<legend align="center">Contact Form
+		<tr>
+			<td><label>Name</label></td>
+			<td><input type="text" name="name" placeholder="First Name"></td>
+			<td><input type="text" name="name" placeholder="Last Name"></td>
+			<td></td>
+		</tr>
+		<tr>
+		<td><label>Email</label></td>
+		<td><input type="email" name="email" placeholder="Primary"></td>
+		<td><input type="email" name="email" placeholder="Secondary">
+		<td></td>
+	</tr>
+	<tr>
+		<td><label>Password</label></td>
+		<td><input type="password" name="pswd" placeholder="Password"></td>
+		<td></td>
+	<tr>
+		<td><label>Address</label></td>
+	<td><input type="text" name="address" placeholder="Location"></td>
+	<td></td>
+</tr>
+<tr>
+	<td><label>Contact no</label></td>
+	<td><input type="text" name="contact" placeholder="Phone Number"></td>
+	<td></td>
+</tr>
+<tr>
+	<td><label>Gender</label></td>
+	<td><input type="radio" name="gender" checked="">Male</td>
+	<td><input type="radio" name="gender">Female</td>
+	<td><input type="radio" name="gender">Others</td>
+</tr>
+<tr>
+	<td><label>Courses</label></td>
+		<td><input type="checkbox" name="gender" checked="">MOA</td>
+	<td><input type="checkbox"     name="gender">BCS</td>
+ 
+</tr>
+<tr>
+	<td><label>Country</label></td>
+        <td><select name="country">
+        <option selected="">Select Your Country</option>        	
+		<option>USA</option>
+		<option>Nepal</option>
+		<option>UK</option>
+		<option>Uganda</option>
+	   </select></td>
+	    </tr>
+<tr>
+   <td><label>Message</label></td>
+	<td>	<textarea rows="" column="" name="msg" placeholder="Type your message in here"></textarea></td>
+	 
+	</tr>
+	<tr>
+		<tr>
+			<td><label>Upload Photo</label></td>
+			<td><input type="file" name="image"></td>
+		</tr>
+
+<tr>
+
+<td></td>
+<td><button id="btn">Submit</button></td>
+<td><button id="btn" >Reset</button></td>
+
+</tr>
+</legend>
+	
+</form>
+</table>
+</fieldset>
+
+<h3>Form for exam question</h3>
+<fieldset>
+ <table align="center" class="table">
+<form>
+	
+		<legend align="center">Softway online order form
+			<td><label>Name</label></td>
+			<td><input type="text" name="name" placeholder="First Name" required="" maxlength="10" minlength="2"></td>
+			<td><input type="text" name="name" placeholder="Last Name" required=""></td>
+			<td></td>
+		</tr>
+		<tr>
+		<td><label>Email</label></td>
+		<td><input type="email" name="email" placeholder="Primary" required="" maxlength="" minlength=""></td>
+		<td><input type="email" name="email" placeholder="Secondary" required="">
+		<td></td>
+	</tr>
+	<tr>
+		<td><label>Password</label></td>
+		<td><input type="password" name="pswd" placeholder="Password" required="" minlength="" maxlength=""></td>
+		<td></td>
+	<tr>
+		<td><label>Address</label></td>
+	<td><input type="text" name="address" placeholder="Location" required="" minlength="" maxlength=""></td>
+	<td></td>
+</tr>
+<tr>
+	<td><label>Contact no</label></td>
+	<td><input type="text" name="contact" placeholder="Phone Number" required="" minlength="" maxlength=""></td>
+	<td></td>
+</tr>
+<tr>
+	<td><label>Gender</label></td>
+	<td><input type="radio" name="gender" checked="">Male</td>
+	<td><input type="radio" name="gender">Female</td>
+	<td><input type="radio" name="gender">Others</td>
+</tr>
+<tr>
+	<td><label>Courses</label></td>
+		<td><input type="checkbox" name="gender" checked="">MOA</td>
+	<td><input type="checkbox"     name="gender">BCS</td>
+ 
+</tr>
+<tr>
+	<td><label>Country</label></td>
+        <td><select name="country">
+        <option selected="">Select Your Country</option>        	
+		<option>USA</option>
+		<option>Nepal</option>
+		<option>UK</option>
+		<option>Uganda</option>
+	   </select></td>
+	    </tr>
+<tr>
+   <td><label>Message</label></td>
+	<td>	<textarea rows="" column="" name="msg" placeholder="Type your message in here" required="" size="100"></textarea></td>
+	 
+	</tr>
+	<tr>
+		<tr>
+			<td><label>Upload Photo</label></td>
+			<td><input type="file" name="image"></td>
+		</tr>
+
+<tr>
+
+<td></td>
+<td><button id="btn">Submit</button></td>
+<td><button id="btn" >Reset</button></td>
+
+</tr>
+</legend>
+	
+</form>
+</table>
+</fieldset>
+
+<form>
+	<fieldset align="center">
+		<table align="center" class="table">
+<legend align="center">Softway online order form</legend>
+<h3 align="center">Step 1:Delivery Infromation</h3>
+<tr>
+<td><label>Customer's Name</label></td>
+<td><input type="text" name="name" placeholder="Name" required=""></td>
+</tr>
+	<td><label>Phone No</label></td>
+<td><input type="text" name="number" placeholder="Number" required=""></td>
+<tr>
+<td><label>Address</label></td>
+<td><textarea rows="" column="" name="msg" placeholder="Type your message in here" required=""></textarea></td>
+</tr>
+</table>
+<br><br>
+<h3 align="center">Step 2:Your Menu Choice</h3>
+
+<table border="1px" align="center" class="table">
+	<thead>
+		<th>Menu</th>
+		<th>Price</th>
+		<th>Quantity</th>
+	</thead>
+	<tr>
+		<td>Menu</td>
+		<td>Price</td>
+		<td>Quantity</td>
+	</tr>
+	<tr>
+		<td>Menu</td>
+		<td>Price</td>
+		<td>Quantity</td>
+	</tr>
+	<tr>
+		<td>Menu</td>
+		<td>Price</td>
+		<td>Quantity</td>
+	</tr>
+</table>
+<br><br>
+<table align="center">
+<tr>
+</tr>
+<td><button id="btn" align="center">Submit</button></td>
+<td><button id="btn" align="center">Reset</button></td>
+</tr>
+</fieldset>
+	
+</form>
+
+
+</body>
+</html>
+<style type="text/css">
+.table{
+	background:skyblue;
+
+
+}	
+
+
+#btn:hover{
+	 
+	background:brown;
+	color: skyblue;
+	box-sizing: border-box;
+  
+
+}
+#btn{
+	width: 100px;
+	height: 30px;
+}
+</style>

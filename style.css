@@ -1,0 +1,46 @@
+ 
+body{
+	
+}
+
+
+ #bar{
+width: 75%;
+height: auto;
+background-color:rgb(149,156,206);
+
+ }
+
+ #navbar{
+height:45px;
+width: auto;
+background-color:rgb(0,0,0);
+color: gray;
+padding-top: 1px;
+padding-bottom: 1px;
+ 
+ 
+
+ }
+
+ #footer{
+width: auto;
+height: 60px;
+color: gray;
+background-color: black;
+ }
+
+ #table{
+ border-spacing: 20px;
+ }
+
+ legend{
+margin:0 auto;
+ }
+
+ table{
+ 	font-size:30 px;
+ 	letter-spacing: 5px;
+ 	kerning: 7px;
+ 	border-spacing: 20px;
+ }

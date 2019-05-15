@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<!--Form begins-->
+<form name="myForm" onsubmit="return validateForm()">
+	
+	<fieldset>
+		 
+		<table align="center">
+		 <!--bank label starts-->
+		<tr>
+		<td><label>Bank</label></td>
+		<td><select name="Bank">
+        <option selected="">Kumari Bank</option>      <!--options used for creating scroll down menu for selecting banks-->  	
+		<option>Prabhu bank</option>
+		<option>Nabil bank</option>
+		<option>Mega Bank</option>
+		<option>Janata Bank</option>
+	    </select></td>
+	    </tr>
+<!--Bank label ends-->
+
+<!--Branch label starts-->
+        <tr>
+	    <td><label>Branch</label></td>
+		<td><select name="branch">
+        <option selected="">Putalisadak</option>        	
+		<option>Bagbajar</option>
+		<option>New-Road</option>
+		<option>Swoyambhu</option>
+	    </select></td>
+	    </tr>
+	   <!--Branch label ends-->
+	   
+       <!--A/c label starts-->
+		<tr>
+		<td><label>Account Number</label></td>
+		<td><input type="text" name="acctype"></td> 
+        </tr>
+		<!--A/c label ends-->
+		
+		<!--Amount label starts-->
+        <tr>
+		<td><label>Amount</label></td>
+		<td><input type="radio" name="account" checked="">Saving <!--Radio button with same name so as to prevent double selection and error-->
+	    <input type="radio" name="account">Current</td>
+	    <!--Amount label ends-->
+	    </tr>
+	    <!--Date label starts-->
+        <tr>
+ 		<td><label>Date</label></td>
+		<td><input type="Date" name="date"></td>
+		 <!--Date label ends-->
+		 </tr>
+		 <!--Button of submit starts-->
+		 <tr>
+		 	<td></td>
+		<td><button>Submit</button></td>
+	    </tr>
+		<!--Button ends-->
+	</table>	
+	 
+	</fieldset>
+ 
+</body>
+<!--Javascript begins-->
+<script type="text/javascript">
+		function validateForm() {
+  var x = document.forms["myForm"]["acctype"].value;
+  if (x == "") {     /*Checks the value is empty or not*/
+    alert("Account number must be filled out"); /*Pop-up message given*/
+    return false;
+  }
+}
+
+</script>
+</html>

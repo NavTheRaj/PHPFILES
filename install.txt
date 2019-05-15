@@ -1,0 +1,21 @@
+sudo apt-get install apache2
+
+// Install php
+sudo apt-get install php7.2
+
+// Install mysql server
+sudo apt-get install mysql-server
+
+
+// To configure mysql-server and to set root pass use mysq_secure_installation command
+
+$ mysql_secure_installation
+
+
+// To connect with mysql database use the following command line tool
+
+msyql -u root -p
+
+
+// and MYSQL cli will open and execute the mysql commands
+~                                                        
